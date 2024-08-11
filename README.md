@@ -1,2 +1,2 @@
-# pomelo.github.io
-The website for this emu
+#Pomelo
+This website is all about the Pomelo Emulator
