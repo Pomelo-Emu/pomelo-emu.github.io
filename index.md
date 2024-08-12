@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>Your Emulator Name</h1>
+            <h1>Pomelo-Emu</h1>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
