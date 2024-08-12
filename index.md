@@ -3,119 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pomelo - Nintendo Switch Emulator</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            background-color: #f0f2f5;
-            color: #333;
-            line-height: 1.6;
-        }
-        header {
-            background-color: #1e1e1e;
-            padding: 20px;
-            text-align: center;
-            color: white;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        nav {
-            background-color: #343a40;
-            overflow: hidden;
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        }
-        nav a {
-            float: left;
-            display: block;
-            color: #f8f9fa;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background-color: #495057;
-            color: white;
-        }
-        main {
-            padding: 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
-        .section {
-            background-color: white;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .section h2 {
-            font-size: 1.8em;
-            margin-bottom: 10px;
-        }
-        .download-button {
-            display: inline-block;
-            background-color: #28a745;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-        .download-button:hover {
-            background-color: #218838;
-        }
-        footer {
-            background-color: #1e1e1e;
-            color: #f8f9fa;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        @media (max-width: 600px) {
-            nav a {
-                float: none;
-                display: block;
-                text-align: left;
-            }
-        }
-    </style>
+    <title>Your Emulator Name</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Pomelo - Nintendo Switch Emulator</h1>
+        <div class="container">
+            <h1>Your Emulator Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#download">Download</a></li>
+                    <li><a href="#changelog">Changelog</a></li>
+                    <li><a href="#github">GitHub</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <a href="#download">Download</a>
-        <a href="#coming-soon">Coming Soon</a>
-        <a href="#github">GitHub</a>
-    </nav>
-    <main>
-        <section id="download" class="section">
-            <h2>Download the Latest Version</h2>
-            <p>Get the latest version of Pomelo to experience the best Nintendo Switch emulation.</p>
-            <a href="#" class="download-button">Download Now</a>
-        </section>
-        <section id="coming-soon" class="section">
-            <h2>What's Coming Soon</h2>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Your Emulator Name</h2>
+            <p>Experience the best Nintendo Switch emulation on your device.</p>
+            <a href="#download" class="button">Download Now</a>
+        </div>
+    </section>
+
+    <section id="download" class="download-section">
+        <div class="container">
+            <h2>Download</h2>
+            <p>Get the latest version of Your Emulator Name for your device.</p>
+            <a href="download-link-here" class="button">Download for Windows</a>
+            <a href="download-link-here" class="button">Download for macOS</a>
+        </div>
+    </section>
+
+    <section id="changelog" class="changelog-section">
+        <div class="container">
+            <h2>Changelog</h2>
             <ul>
-                <li>Improved graphics rendering</li>
-                <li>Support for more games</li>
-                <li>Enhanced controller compatibility</li>
+                <li><strong>Version 1.0.1</strong> - Improved performance, bug fixes.</li>
+                <li><strong>Version 1.0.0</strong> - Initial release.</li>
             </ul>
-        </section>
-        <section id="github" class="section">
-            <h2>View on GitHub</h2>
-            <p>Contribute to the project or view the source code on our GitHub repository.</p>
-            <a href="https://github.com/yourusername/pomelo" target="_blank">Pomelo on GitHub</a>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <section id="github" class="github-section">
+        <div class="container">
+            <h2>GitHub</h2>
+            <p>Contribute to the project or view the source code on GitHub.</p>
+            <a href="https://github.com/your-emulator-repo" class="button">View on GitHub</a>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2024 Pomelo. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Your Emulator Name. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
