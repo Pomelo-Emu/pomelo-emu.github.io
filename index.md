@@ -1,2 +1,3 @@
 Pomelo
 Very good emulator that performs awesome
+<a class="mantine-focus-auto mantine-active m_77c9d27d mantine-Button-root m_87cf2631 mantine-UnstyledButton-root" data-variant="filled" href="/releases/sudachi-windows-v1.0.4.7z" style="--button-radius: var(--mantine-radius-xl); --button-bg: var(--mantine-color-violet-filled); --button-hover: var(--mantine-color-violet-filled-hover); --button-color: var(--mantine-color-white); --button-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;"><span class="m_80f1301b mantine-Button-inner"><span class="m_811560b9 mantine-Button-label">Windows</span></span></a>
