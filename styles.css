@@ -2,13 +2,15 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     color: #333333;
-    text-align: center;
-    padding: 20px;
+    height: 100vh; /* Ensure the body takes the full viewport height */
+    margin: 0; /* Remove default body margin */
+    display: flex; /* Use flexbox for body */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 .content {
-    margin: 50px auto;
-    max-width: 600px;
+    text-align: center;
 }
 
 h1 {
