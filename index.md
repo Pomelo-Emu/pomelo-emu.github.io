@@ -12,9 +12,9 @@
         <h1>SwitchEmu</h1>
         <p>High-performance Nintendo Switch emulation at your fingertips.</p>
         <div class="buttons">
-            <a href="#" class="button blue">Download for iOS</a>
-            <a href="#" class="button green">View Changelog</a>
-            <a href="#" class="button teal">Visit GitHub</a>
+            <a href="https://github.com/pomelo-emu/pomelo/releases/tag/1.0" class="button blue">Download for iOS</a>
+            <a href="https://github.com/Pomelo-Emu/Pomelo/compare/0.0.81...0.1.0" class="button green">View Changelog</a>
+            <a href="https://github.com/pomelo-emu/pomelo" class="button teal">Visit GitHub</a>
         </div>
     </div>
 </body>
