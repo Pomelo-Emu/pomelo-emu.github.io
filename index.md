@@ -8,8 +8,8 @@
 </head>
 <body>
     <div class="content">
-        <h3>@emulator_user</h3>
-        <h1>SwitchEmu</h1>
+    
+        <h1>Pomelo</h1>
         <p>High-performance Nintendo Switch emulation at your fingertips.</p>
         <div class="buttons">
             <a href="https://github.com/pomelo-emu/pomelo/releases/tag/1.0" class="button blue">Download for iOS</a>
