@@ -69,6 +69,10 @@ p {
     background-color: #13b0a9;
 }
 
+.button.red {
+    background-color: #E4080A;
+}
+
 .button:hover {
     opacity: 0.8;
 }
