@@ -1,62 +1,72 @@
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #333333;
-    height: 100vh; /* Ensure the body takes the full viewport height */
-    margin: 0; /* Remove default body margin */
-    display: flex; /* Use flexbox for body */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    text-align: center;
+    background-image: url('images/background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Adjust text color for contrast */
 }
 
 .content {
-    text-align: center;
-}
-
-h1 {
-    font-size: 3em;
-    font-weight: bold;
-    margin: 20px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5); /* Add transparency to make the text more readable */
+    padding: 20px;
+    border-radius: 10px;
 }
 
 h3 {
-    color: #2e8b57; /* Green color */
-    font-size: 1em;
-    margin: 0;
+    color: #bada55; /* Adjusted color for better visibility */
+}
+
+h1 {
+    font-size: 2.5em;
 }
 
 p {
-    color: #6c757d; /* Gray color */
-    margin-bottom: 40px;
-    font-size: 1.2em;
+    color: #ddd;
 }
 
 .buttons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    margin-top: 20px;
 }
 
 .button {
-    padding: 15px 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
     border-radius: 25px;
     text-decoration: none;
-    color: #ffffff;
     font-size: 1em;
+    color: white;
+    transition: background-color 0.3s ease;
 }
 
 .button.blue {
-    background-color: #007bff;
+    background-color: #4285f4;
 }
 
 .button.black {
-    background-color: #343a40;
+    background-color: #333;
 }
 
 .button.green {
-    background-color: #28a745;
+    background-color: #34a853;
 }
 
 .button.teal {
-    background-color: #20c997;
+    background-color: #00bcd4;
+}
+
+.button.altstore {
+    background-color: #13b0a9;
+}
+
+.button:hover {
+    opacity: 0.8;
 }
