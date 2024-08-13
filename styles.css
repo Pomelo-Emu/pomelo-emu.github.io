@@ -2,10 +2,10 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('images/background.jpg'); /* Replace with your image path */
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: center; /* Centers the image both horizontally and vertically */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-image: url('background.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     margin: 0;
     padding: 0;
     color: #fff; /* Adjust text color for contrast */
