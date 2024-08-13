@@ -4,7 +4,7 @@ body {
     text-align: center;
     background-image: url('background.png'); /* Replace with your image path */
     background-size: cover; /* Ensures the image covers the entire background */
-    background-position: bottom; /* Centers the image both horizontally and vertically */
+    background-position: contain; /* Centers the image both horizontally and vertically */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-color: #000; /* Fallback color in case image doesn't cover the entire screen */
     margin: 0;
