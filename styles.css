@@ -35,6 +35,10 @@ p {
     color: #ddd;
 }
 
+a {
+    color: #4169e1;
+}
+
 .buttons {
     margin-top: 20px;
 }
