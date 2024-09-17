@@ -1,90 +1,78 @@
-/* General Styles 
+/* styles.css */
 body {
-    font-family: 'Merriweather', serif;
-    color: #f0f0f0;
-    background-color: #2e2e2e;
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    color: #64b5f6;
-    text-decoration: none;
-}
-
-header {
-    background-color: #1c1c1c;
-    padding: 10px 0;
-}
-
-header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header h1 a {
-    color: #64b5f6;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-}
-
-header ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-header ul li {
-    margin-left: 20px;
-}
-
-.hero {
-    background: url('hero-bg.jpg') no-repeat center center/cover;
-    color: #ffffff;
+    font-family: Arial, sans-serif;
     text-align: center;
-    padding: 100px 0;
-}
-
-.hero-content h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
+    background-image: url('background.png'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: contain; /* Centers the image both horizontally and vertically */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-color: #000; /* Fallback color in case image doesn't cover the entire screen */
     margin: 0;
+    padding: 0;
+    color: #fff; /* Adjust text color for contrast */
 }
 
-.hero-content .cta-button {
-    background-color: #64b5f6;
-    color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.feature-grid {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
-}
-
-.feature-item {
-    background-color: #333333;
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5); /* Add transparency to make the text more readable */
     padding: 20px;
-    border-radius: 5px;
-    width: 30%;
+    border-radius: 10px;
 }
 
-footer {
-    background-color: #1c1c1c;
-    color: #aaaaaa;
-    padding: 20px 0;
-    text-align: center;
+h3 {
+    color: #bada55; /* Adjusted color for better visibility */
 }
 
-.social-media a {
-    margin: 0 10px;
-    color: #aaaaaa;
+h1 {
+    font-size: 2.5em;
 }
-*/
+
+p {
+    color: #ddd;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.button.blue {
+    background-color: #4285f4;
+}
+
+.button.black {
+    background-color: #333;
+}
+
+.button.green {
+    background-color: #34a853;
+}
+
+.button.teal {
+    background-color: #00bcd4;
+}
+
+.button.altstore {
+    background-color: #13b0a9;
+}
+
+.button.red {
+    background-color: #E4080A;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
