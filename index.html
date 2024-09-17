@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cool Redesign</title>
+    <title>Pomelo Emu - Redesign</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -14,7 +14,7 @@
             color: #333;
         }
         header {
-            background: #333;
+            background: #004d40;
             color: #fff;
             padding: 1rem 2rem;
             position: sticky;
@@ -23,48 +23,53 @@
             justify-content: space-between;
             align-items: center;
             z-index: 1000;
+            border-bottom: 2px solid #00796b;
         }
         header .logo {
-            font-size: 1.5rem;
+            font-size: 1.75rem;
             font-weight: 700;
         }
         header nav a {
             color: #fff;
             text-decoration: none;
-            margin: 0 1rem;
+            margin: 0 1.5rem;
             font-weight: 500;
         }
         header nav a:hover {
-            text-decoration: underline;
+            color: #e0f2f1;
+            border-bottom: 2px solid #e0f2f1;
+            padding-bottom: 0.5rem;
         }
         .hero {
             background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
             color: #fff;
             text-align: center;
-            padding: 4rem 2rem;
-            min-height: 400px;
+            padding: 5rem 2rem;
+            min-height: 500px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
         .hero h1 {
-            font-size: 3rem;
+            font-size: 3.5rem;
             margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
         }
         .hero .button {
-            background: #007BFF;
+            background: #00796b;
             color: #fff;
             padding: 0.75rem 2rem;
             border: none;
             border-radius: 5px;
             text-decoration: none;
-            font-size: 1rem;
+            font-size: 1.25rem;
             font-weight: 700;
             margin-top: 1rem;
+            transition: background 0.3s;
         }
         .hero .button:hover {
-            background: #0056b3;
+            background: #004d40;
         }
         .content {
             padding: 2rem;
@@ -72,15 +77,16 @@
             margin: auto;
         }
         .content h2 {
-            font-size: 2rem;
+            font-size: 2.5rem;
             margin-top: 0;
+            color: #004d40;
         }
         .content p {
-            font-size: 1rem;
-            line-height: 1.6;
+            font-size: 1.125rem;
+            line-height: 1.8;
         }
         .footer {
-            background: #333;
+            background: #004d40;
             color: #fff;
             text-align: center;
             padding: 1rem;
@@ -89,7 +95,7 @@
             width: 100%;
         }
         .footer a {
-            color: #007BFF;
+            color: #00796b;
             text-decoration: none;
         }
         .footer a:hover {
@@ -107,12 +113,15 @@
                 display: block;
                 margin: 0.5rem 0;
             }
+            .hero h1 {
+                font-size: 2.5rem;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="logo">Your Logo</div>
+        <div class="logo">Pomelo Emu</div>
         <nav>
             <a href="#home">Home</a>
             <a href="#about">About</a>
@@ -120,16 +129,15 @@
         </nav>
     </header>
     <section class="hero" id="home">
-        <h1>Welcome to My Cool Website</h1>
-        <a href="#cta" class="button">Learn More</a>
+        <h1>Welcome to Pomelo Emu</h1>
+        <a href="#cta" class="button">Discover More</a>
     </section>
     <section class="content" id="about">
         <h2>About Us</h2>
-        <p>Your content goes here. This is a simple example of a modern, responsive website layout with a clean and stylish design. You can customize this template according to your needs.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur mi ut libero scelerisque, vel facilisis orci facilisis. Integer in turpis vel mauris dapibus gravida.</p>
     </section>
     <footer class="footer" id="contact">
-        <p>&copy; 2024 Your Website | <a href="#">Privacy Policy</a></p>
+        <p>&copy; 2024 Pomelo Emu | <a href="#">Privacy Policy</a></p>
     </footer>
 </body>
 </html>
-
