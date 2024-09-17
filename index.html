@@ -3,141 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pomelo Emu - Redesign</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            color: #333;
-        }
-        header {
-            background: #004d40;
-            color: #fff;
-            padding: 1rem 2rem;
-            position: sticky;
-            top: 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            z-index: 1000;
-            border-bottom: 2px solid #00796b;
-        }
-        header .logo {
-            font-size: 1.75rem;
-            font-weight: 700;
-        }
-        header nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 1.5rem;
-            font-weight: 500;
-        }
-        header nav a:hover {
-            color: #e0f2f1;
-            border-bottom: 2px solid #e0f2f1;
-            padding-bottom: 0.5rem;
-        }
-        .hero {
-            background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
-            color: #fff;
-            text-align: center;
-            padding: 5rem 2rem;
-            min-height: 500px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .hero h1 {
-            font-size: 3.5rem;
-            margin: 0;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-        }
-        .hero .button {
-            background: #00796b;
-            color: #fff;
-            padding: 0.75rem 2rem;
-            border: none;
-            border-radius: 5px;
-            text-decoration: none;
-            font-size: 1.25rem;
-            font-weight: 700;
-            margin-top: 1rem;
-            transition: background 0.3s;
-        }
-        .hero .button:hover {
-            background: #004d40;
-        }
-        .content {
-            padding: 2rem;
-            max-width: 1200px;
-            margin: auto;
-        }
-        .content h2 {
-            font-size: 2.5rem;
-            margin-top: 0;
-            color: #004d40;
-        }
-        .content p {
-            font-size: 1.125rem;
-            line-height: 1.8;
-        }
-        .footer {
-            background: #004d40;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        .footer a {
-            color: #00796b;
-            text-decoration: none;
-        }
-        .footer a:hover {
-            text-decoration: underline;
-        }
-        @media (max-width: 768px) {
-            header {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            header nav {
-                margin-top: 1rem;
-            }
-            header nav a {
-                display: block;
-                margin: 0.5rem 0;
-            }
-            .hero h1 {
-                font-size: 2.5rem;
-            }
-        }
-    </style>
+    <title>Pomelo Emu - Redesigned</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Merriweather:wght@400&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <div class="logo">Pomelo Emu</div>
         <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <div class="container">
+                <h1><a href="#">Pomelo Emu</a></h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <section class="hero" id="home">
-        <h1>Welcome to Pomelo Emu</h1>
-        <a href="#cta" class="button">Discover More</a>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Pomelo Emu</h2>
+            <p>Your new favorite emulator.</p>
+            <a href="#download" class="cta-button">Download Now</a>
+        </div>
     </section>
-    <section class="content" id="about">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur mi ut libero scelerisque, vel facilisis orci facilisis. Integer in turpis vel mauris dapibus gravida.</p>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h3>High Performance</h3>
+                    <p>Experience top-notch performance with our emulator.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Customizable</h3>
+                    <p>Personalize your emulation experience with a range of options.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Easy to Use</h3>
+                    <p>Intuitive interface for a seamless experience.</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <footer class="footer" id="contact">
-        <p>&copy; 2024 Pomelo Emu | <a href="#">Privacy Policy</a></p>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Learn more about the team behind Pomelo Emu and our mission to provide the best emulation experience.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pomelo Emu. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#" aria-label="Twitter">Twitter</a>
+                <a href="#" aria-label="Facebook">Facebook</a>
+                <a href="#" aria-label="Instagram">Instagram</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
