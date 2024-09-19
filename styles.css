@@ -1,124 +1,69 @@
-/* styles.css */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-image: url('background.png'); /* Replace with your image path */
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: contain; /* Centers the image both horizontally and vertically */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-color: #000; /* Fallback color in case image doesn't cover the entire screen */
-    margin: 0;
-    padding: 0;
-    color: #fff; /* Adjust text color for contrast */
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #1a1a1a;
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
-.content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.5); /* Add transparency to make the text more readable */
-    padding: 20px;
-    border-radius: 10px;
-}
-
-h3 {
-    color: #bada55; /* Adjusted color for better visibility */
+header {
+  background-color: #333;
+  padding: 20px 0;
 }
 
 h1 {
-    font-size: 2.5em;
-    color: #4169e1;
+  color: #4169e1;
+  margin: 0;
 }
 
-p {
-    color: #ddd;
+.hero-section {
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #000, #444);
 }
 
-a {
-    color: #222222;
+.hero-content {
+  max-width: 800px;
+  margin: auto;
 }
 
-.buttons {
-    margin-top: 20px;
+.button-group {
+  margin-top: 20px;
 }
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-size: 1em;
-    color: white;
-    transition: background-color 0.3s ease;
+.features-section, .about-section {
+  padding: 50px 20px;
+  background-color: #222;
 }
 
-/* CSS */
+h2 {
+  margin-bottom: 20px;
+  color: #bada55;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.feature-item {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
 .button-85 {
   padding: 0.6em 2em;
   border: none;
-  outline: none;
-  color: rgb(255, 255, 255);
-  background: #111;
+  color: #fff;
+  background: #4169e1;
+  border-radius: 10px;
   cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 10px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
-.button-85:before {
-  content: "";
-  background: linear-gradient(
-    45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  animation: glowing-button-85 20s linear infinite;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 10px;
+.button-85:hover {
+  background: #1e90ff;
 }
-
-@keyframes glowing-button-85 {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 400% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
-
-.button-85:after {
-  z-index: -1;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #222;
-  left: 0;
-  top: 0;
-  border-radius: 10px;
-}
-
