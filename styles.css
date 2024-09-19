@@ -59,9 +59,12 @@ h2 {
 }
 
 .feature-item {
-  color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blurs the background behind the element */
+    border-radius: 15px; /* Round the corners for aesthetics */
+    padding: 20px; /* Adds space inside the element */
+    margin: 15px 0; /* Space between the feature boxes */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     
 }
 
