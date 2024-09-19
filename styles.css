@@ -69,16 +69,14 @@ h2 {
 }
 
 .button-85 {
-  padding: 0.6em 2em;
-  border: none;
-  color: #fff;
-  background: #4169e1;
-  border-radius: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-   margin: 15px;
-    gap: 5px
+   display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    transition: background-color 0.3s ease;
 }
 
 .button-85:hover {
