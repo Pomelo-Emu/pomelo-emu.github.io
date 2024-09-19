@@ -84,9 +84,26 @@ h2 {
  opacity: 0.8;
 }
 .usualbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+      background: #4169e1;
+    transition: background-color 0.3s ease;
     
-    background: #4169e1;
+  
 }
 .redbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
     background: #de0a26;
-}
+    transition: background-color 0.3s ease;
+    }
