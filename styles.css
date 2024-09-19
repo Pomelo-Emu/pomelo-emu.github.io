@@ -77,7 +77,8 @@ h2 {
   cursor: pointer;
   text-decoration: none;
   transition: background-color 0.3s ease;
-margin: 20px;
+   margin: 15px;
+    gap: 5px
 }
 
 .button-85:hover {
