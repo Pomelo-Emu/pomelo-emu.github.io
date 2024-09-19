@@ -11,6 +11,16 @@ body {
     color: #fff; /* Adjust text color for contrast */
 }
 
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5); /* Add transparency to make the text more readable */
+    padding: 20px;
+    border-radius: 10px;
+}
+
 
 h1 {
   color: #4169e1;
