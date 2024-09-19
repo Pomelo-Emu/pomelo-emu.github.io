@@ -29,7 +29,7 @@ h1 {
 
 .hero-section {
   padding: 50px 20px;
-  background: linear-gradient(135deg, #000, #444);
+ 
 }
 
 .hero-content {
@@ -43,7 +43,7 @@ h1 {
 
 .features-section, .about-section {
   padding: 50px 20px;
-  background-color: #222;
+  
 }
 
 h2 {
