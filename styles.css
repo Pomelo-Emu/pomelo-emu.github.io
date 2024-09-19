@@ -52,14 +52,14 @@ h2 {
 }
 
 .feature-grid {
-filter: blur(8px);
+  filter: blur(8px);
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
 }
 
 .feature-item {
-  
+  color: #999999;
   padding: 20px;
   border-radius: 10px;
 }
