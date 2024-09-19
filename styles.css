@@ -58,7 +58,7 @@ h2 {
 }
 
 .feature-item {
-  background-color: #333;
+  filter: blur(8px);
   padding: 20px;
   border-radius: 10px;
 }
