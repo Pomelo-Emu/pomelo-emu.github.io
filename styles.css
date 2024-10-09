@@ -107,3 +107,15 @@ h2 {
     background: #de0a26;
     transition: background-color 0.3s ease;
     }
+
+.purple {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    background: #7289da;
+    transition: background-color 0.3s ease;
+    }
