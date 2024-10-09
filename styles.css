@@ -56,8 +56,7 @@ h2 {
     justify-content: center; /* Center horizontally */
     gap: 20px; /* Adjust the spacing between boxes */
     flex-wrap: wrap; /* Allows the boxes to wrap to the next line if needed */
-    padding: 20px; /* Optional: Adds padding around the container */
-    height: 100vh; 
+     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   
 }
 
