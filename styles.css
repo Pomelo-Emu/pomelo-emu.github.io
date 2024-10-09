@@ -54,7 +54,6 @@ h2 {
 .feature-grid {
   display: flex; /* Activate Flexbox */
     justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
     gap: 20px; /* Adjust the spacing between boxes */
     flex-wrap: wrap; /* Allows the boxes to wrap to the next line if needed */
     padding: 20px; /* Optional: Adds padding around the container */
