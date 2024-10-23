@@ -1,14 +1,10 @@
 body {
     font-family: Roboto, sans-serif;
     text-align: center;
-    background-image: url('background.png'); /* Replace with your image path */
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: contain; /* Centers the image both horizontally and vertically */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-color: #000; /* Fallback color in case image doesn't cover the entire screen */
+    background-color: #fbf6e2;
     margin: 0;
     padding: 0;
-    color: #fff; /* Adjust text color for contrast */
+    color: #000000; /* Adjust text color for contrast */
 }
 
 .content {
@@ -48,7 +44,7 @@ h1 {
 
 h2 {
   margin-bottom: 20px;
-  color: #bada55;
+  color: #c0a539;
 }
 
 .feature-grid {
@@ -61,12 +57,11 @@ h2 {
 }
 
 .feature-item {
-  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
-    backdrop-filter: blur(10px); /* Blurs the background behind the element */
+  background-color: rgba(245, 232, 181, 0.6); /* Semi-transparent background */
     border-radius: 15px; /* Round the corners for aesthetics */
     padding: 20px; /* Adds space inside the element */
     margin: 15px 0; /* Space between the feature boxes */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     
 }
 
