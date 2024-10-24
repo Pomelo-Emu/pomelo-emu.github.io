@@ -4,7 +4,7 @@ body {
     background-color: #fbf6e2;
     margin: 0;
     padding: 0;
-    color: #000000; /* Adjust text color for contrast */
+    color: #363636; /* Adjust text color for contrast */
 }
 
 .content {
@@ -34,7 +34,15 @@ h1 {
 }
 
 .button-group {
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adjust the spacing between buttons */
+}
+
+.button-group a {
+  flex: 1;
+  max-width: 200px; /* Set a maximum width for the buttons */
+  text-align: center; /* Center the text inside the buttons */
 }
 
 .features-section, .about-section {
@@ -44,7 +52,7 @@ h1 {
 
 h2 {
   margin-bottom: 20px;
-  color: #c0a539;
+  color: #000000;
 }
 
 .feature-grid {
